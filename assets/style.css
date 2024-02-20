@@ -1,0 +1,197 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.navbar-color {
+  background: #140078 !important;
+}
+.navbar-title {
+  font-size: 25px !important;
+  color: white !important;
+  min-height: 54px !important;
+}
+.navbar-btn {
+  margin: 0 !important;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+.navbar-btn a {
+  color: white !important;
+}
+.navbar-btn:hover {
+  color: whitesmoke !important;
+  background: rgba(255, 255, 255, 0.2);
+}
+.navbar-static-top {
+  margin-bottom: 0 !important;
+  border: 0 !important;
+}
+.x-menu {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.x-btn {
+  flex: auto;
+  background: none !important;
+  border: none !important;
+  text-shadow: none !important;
+  box-shadow: none !important;
+  padding: 12px 24px !important;
+  border-radius: 0 !important;
+  font-weight: 600 !important;
+  color: #140078 !important;
+}
+.x-btn.active {
+  background: rgba(0, 0, 0, 0.2) !important;
+}
+.x-btn:hover {
+  background: rgba(0, 0, 0, 0.25) !important;
+  color: #0d033d !important;
+}
+.x-btn:focus {
+  outline: none !important;
+}
+.x-btn:active {
+  border: none !important;
+}
+.x-container {
+  float: none !important;
+  margin: auto;
+}
+.x-search-bg {
+  min-height: calc(100vh - 134px);
+  background-image: linear-gradient(rgba(0, 8, 51, 0.3), rgba(0, 8, 51, 0.3)),
+    url("/assets/images/modern-house.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.x-search-input {
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: rgba(255, 255, 255, 0.8) !important;
+}
+.x-search-input:focus {
+  background: rgba(255, 255, 255, 1) !important;
+}
+.x-search-btn {
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: #920404 !important;
+  color: white !important;
+  font-size: 12px !important;
+  text-shadow: none !important;
+}
+.x-search-btn:active {
+  border: none !important;
+}
+.x-search-btn:focus {
+  outline: none !important;
+}
+.x-footer {
+  height: 36px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 1.25rem;
+  background-color: rgb(12, 0, 75) !important;
+  color: white !important;
+}
+.x-footer p {
+  margin: 0 !important;
+}
+.txt-welcome {
+  text-align: center;
+  color: white !important;
+  font-size: 3rem;
+}
+a.thumbnail-link {
+  text-decoration: none !important;
+}
+.thumbnail-0 {
+  padding: 0 !important;
+  background-color: rgb(235, 235, 235);
+  border: 0 !important;
+}
+.thumbnail-0:hover {
+  cursor: pointer;
+}
+.thumbnail-0 img {
+  height: 200px !important;
+  width: 100% !important;
+  object-fit: cover;
+}
+.thumbnail-0 .caption {
+  background-color: rgb(235, 235, 235);
+}
+.thumbnail-0 .caption h4 {
+  margin-top: 0 !important;
+  color: rgb(205, 7, 7);
+  font-weight: bold;
+}
+.thumbnail-0 .caption p {
+  margin-bottom: 2px;
+}
+.about-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(20, 0, 120);
+  color: white;
+  width: 65vw;
+  margin: auto;
+  font-size: 2rem;
+}
+.about-text p {
+  margin-bottom: 2rem;
+}
+.container-fluid.about {
+  background-color: rgb(20, 0, 120);
+  padding: 10rem;
+}
+.btn-read-more {
+  width: 150px;
+  text-decoration: none;
+  border: 2px solid rgba(255, 255, 255, 0.87);
+  padding: 10px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.87);
+}
+.btn-read-more:hover {
+  text-decoration: none;
+  border: 2px solid white;
+  color: white;
+}
+.x-buy-items {
+  padding: 5rem;
+}
+@media screen and (max-width: 768px) {
+  .x-btn {
+    flex: auto;
+    background: none !important;
+    border: none !important;
+    text-shadow: none !important;
+    box-shadow: none !important;
+    padding: 6px 12px !important;
+    border-radius: 0 !important;
+  }
+  .x-search-bg {
+    min-height: calc(100vh - 122px) !important;
+  }
+  .txt-welcome {
+    text-align: center;
+    color: white !important;
+    font-size: 2rem;
+  }
+  .x-buy-items {
+    padding: 2rem;
+  }
+}
