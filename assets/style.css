@@ -154,7 +154,7 @@ a.thumbnail-link {
 }
 .container-fluid.about {
   background-color: rgb(20, 0, 120);
-  padding: 10rem;
+  padding: 10rem 5rem;
 }
 .btn-read-more {
   width: 150px;
@@ -193,5 +193,11 @@ a.thumbnail-link {
   }
   .x-buy-items {
     padding: 2rem;
+  }
+  .container-fluid.about {
+    padding: 5rem 2rem;
+  }
+  .about-text {
+    width: 80vw;
   }
 }
