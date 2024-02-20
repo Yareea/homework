@@ -1,3 +1,9 @@
+<?php
+@ob_start();
+ini_set('display_errors', 0);
+ini_set('log_errors', 1);
+ini_set('error_log', '/path/to/error.log');
+?>
 <!DOCTYPE html>
 <html lang="en">
 

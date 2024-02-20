@@ -1,6 +1,8 @@
 <?php
+@ob_start();
+session_start();
 
-require('./utils/database.php"');
+require('./utils/database.php');
 
 // Check if the form is submitted
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -22,26 +24,29 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if ($user) {
         if (password_verify($_POST["password"], $user["password_hash"])) {
             // Successful login
-            session_start();
             $_SESSION["email"] = $email; // Store username in session for future use
 
             // Redirect to the dashboard or another protected page
             header("Location: index.php");
+            ob_flush();
             exit();
         } else {
             // Invalid login credentials
             $error_message = "Invalid username or password. Please try again.";
             header("Location: login.php?error=" . urlencode($error_message));
+            ob_flush();
             exit();
         }
     } else {
         // Invalid login credentials
         $error_message = "Invalid username or password. Please try again.";
         header("Location: login.php?error=" . urlencode($error_message));
+        ob_flush();
         exit();
     }
 } else {
     // Redirect to the login page if accessed directly without submitting the form
     header("Location: login.php");
+    ob_flush();
     exit();
 }

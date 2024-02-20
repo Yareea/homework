@@ -1,7 +1,7 @@
 version: '3'
 
 services:
-  curl-service:
+  real-estate-php:
     build:
       context: .
       dockerfile: Dockerfile
