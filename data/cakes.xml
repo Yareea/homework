@@ -1,0 +1,63 @@
+<cakes>
+    <cake>
+        <cake_name>Red Velvet Cake</cake_name>
+        <image>/assets/images/cakes/red_velvet_cake.jpg</image>
+        <description>A classic red velvet cake with cream cheese frosting.</description>
+        <price>$24.99</price>
+    </cake>
+    <cake>
+        <cake_name>Chocolate Fudge Cake</cake_name>
+        <image>/assets/images/cakes/chocolate_fudge_cake.jpg</image>
+        <description>A rich chocolate fudge cake topped with chocolate ganache.</description>
+        <price>$29.99</price>
+    </cake>
+    <cake>
+        <cake_name>Vanilla Bean Cake</cake_name>
+        <image>/assets/images/cakes/vanilla_bean_cake.jpg</image>
+        <description>A moist vanilla bean cake with buttercream frosting.</description>
+        <price>$19.99</price>
+    </cake>
+    <cake>
+        <cake_name>Carrot Cake</cake_name>
+        <image>/assets/images/cakes/carrot_cake.jpg</image>
+        <description>A delightful carrot cake with walnuts and cream cheese frosting.</description>
+        <price>$22.99</price>
+    </cake>
+    <cake>
+        <cake_name>Black Forest Cake</cake_name>
+        <image>/assets/images/cakes/black_forest_cake.jpg</image>
+        <description>A decadent black forest cake with layers of chocolate sponge and cherries.</description>
+        <price>$26.99</price>
+    </cake>
+    <cake>
+        <cake_name>Strawberry Shortcake</cake_name>
+        <image>/assets/images/cakes/strawberry_shortcake.jpg</image>
+        <description>A light and fluffy strawberry shortcake with fresh strawberries and whipped cream.</description>
+        <price>$21.99</price>
+    </cake>
+    <cake>
+        <cake_name>Lemon Drizzle Cake</cake_name>
+        <image>/assets/images/cakes/lemon_drizzle_cake.jpg</image>
+        <description>A tangy lemon drizzle cake with a zesty lemon glaze.</description>
+        <price>$18.99</price>
+    </cake>
+    <cake>
+        <cake_name>Coconut Cream Cake</cake_name>
+        <image>/assets/images/cakes/coconut_cream_cake.jpg</image>
+        <description>A tropical coconut cream cake topped with shredded coconut.</description>
+        <price>$23.99</price>
+    </cake>
+    <cake>
+        <cake_name>Marble Cake</cake_name>
+        <image>/assets/images/cakes/marble_cake.jpg</image>
+        <description>A swirl of chocolate and vanilla in a moist marble cake.</description>
+        <price>$20.99</price>
+    </cake>
+    <cake>
+        <cake_name>Blueberry Cheesecake</cake_name>
+        <image>/assets/images/cakes/blueberry_cheesecake.jpg</image>
+        <description>A creamy blueberry cheesecake with a graham cracker crust.</description>
+        <price>$28.99</price>
+    </cake>
+    <!-- Add more cakes here if needed -->
+</cakes>
