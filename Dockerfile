@@ -1,8 +1,13 @@
-# Use the official PHP image
-FROM php:latest
+# Use the official Nginx image
+FROM nginx:latest
 
-# Install MySQLi extension
-RUN docker-php-ext-install mysqli
+# Install PHP and MySQLi extension
+RUN apt-get update && apt-get install -y \
+    php-fpm \
+    php-mysqli
+
+# Copy the Nginx configuration file
+COPY nginx.conf /etc/nginx/nginx.conf
 
 # Set the working directory
 WORKDIR /var/www/html
@@ -10,8 +15,5 @@ WORKDIR /var/www/html
 # Copy the PHP files into the container
 COPY . /var/www/html
 
-# Expose port 8080
-EXPOSE 8080
-
-# Command to run the PHP application
-CMD ["php", "-S", "0.0.0.0:8080"]
+# Expose port 80
+EXPOSE 80
