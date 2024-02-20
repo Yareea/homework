@@ -13,7 +13,8 @@
                 </div>
                 <div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
-                        <?php if (!isset($_SESSION['email'])) { ?>
+                        <?php session_start();
+                        if (!isset($_SESSION['email'])) { ?>
                             <li class="navbar-btn"><a href="/register.php">SIGN UP</a></li>
                             <li class="navbar-btn"><a href="/login.php">SIGN IN</a></li>
                         <?php } else { ?>
