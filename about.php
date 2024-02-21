@@ -51,7 +51,7 @@
         <div class="col-12 x-buy-bg">
             <div class="container container-cake">
                 <h1>Cakes Catalog</h1>
-                <p>***This is XML file <a target="_blank" href="/data/download.php">cakes.xml</a></p>
+                <p>***This is XML file <a target="_blank" href="/data/cakes.php">cakes.xml</a></p>
                 <table>
                     <thead>
                         <tr>

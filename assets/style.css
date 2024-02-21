@@ -63,7 +63,7 @@ html {
   margin: auto;
 }
 .x-search-bg {
-  min-height: calc(100vh - 134px);
+  min-height: calc(100vh - 98px);
   background-image: linear-gradient(rgba(0, 8, 51, 0.3), rgba(0, 8, 51, 0.3)),
     url("/assets/images/modern-house.jpeg");
   background-repeat: no-repeat;
